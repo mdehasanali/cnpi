@@ -1,0 +1,157 @@
+/*basic code start */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(26, 7, 7);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.2% 1.5%;
+    background: lightblue;
+}
+
+.main_container {
+    width: 100%;
+}
+
+.main_container::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+.ul-dp{
+	clear: both;
+	display: table;
+	content: '';
+	background: #888;
+}
+
+
+
+/*basic code end */
+
+/*header code start */
+/* header{
+	
+} */
+.img {
+    width: 80px;
+    float: left;
+    background: #000;
+    border-radius: 33px;
+}
+
+.title {
+    width: 930px;
+    float: right;
+    background-color: coral;
+    border-radius: 50px;
+}
+.title h2 {
+    padding: 22px;
+    justify-content: center;
+    display: flex;
+    font-size: 2.2rem;
+    color: white;
+}
+ul.ul-dp li {
+    list-style: none;
+    float: left;
+    border-right: red 1px solid
+}
+
+ul.ul-dp li:last-child{
+    border: none;
+}
+
+ul.ul-dp li a {
+    display: block;
+    padding: 12px 41px;
+    margin: 0px 8px;
+    font-size: 23px;
+}
+ul.ul-dp li a:hover {
+    background: aqua;
+    transition: 0.3s;
+    color: green;
+    font-style: italic;
+    font-weight: 700;
+}
+/*header code end */
+
+
+/*main website code end */
+ul.wibsite-1 li {
+    list-style: none;
+    width: 230px;
+    font-size: 26px;
+}
+.website{
+    position: relative;
+}
+.content h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 100px;
+}
+
+.content p {
+    font-size: 21px;
+    margin: 40px;
+    text-align: center;
+}
+
+.content {
+    width: 750px;
+    float: right;
+    position: relative;
+    top: -120px;
+    left: -10px;
+}
+ul.wibsite-1 {
+    margin-top: 30px;
+}
+
+.bg{
+    background: #000;
+    padding: 8px;
+    color: white;
+    border-radius: 50px;
+}
+/*main website code end */
+
+
+
+/*footer code end */
+footer .container{
+	padding: 0;
+}
+.footer-p{
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+/*footer code end */
+
