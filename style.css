@@ -39,21 +39,25 @@ a {
     display: table;
     content: '';
 }
-.ul-dp{
-	clear: both;
-	display: table;
-	content: '';
-	background: #888;
-}
 
+.ul-dp {
+    clear: both;
+    display: table;
+    content: '';
+    background: #888;
+}
 
 
 /*basic code end */
 
+
 /*header code start */
+
+
 /* header{
 	
 } */
+
 .img {
     width: 80px;
     float: left;
@@ -67,6 +71,7 @@ a {
     background-color: coral;
     border-radius: 50px;
 }
+
 .title h2 {
     padding: 22px;
     justify-content: center;
@@ -74,22 +79,24 @@ a {
     font-size: 2.2rem;
     color: white;
 }
+
 ul.ul-dp li {
     list-style: none;
     float: left;
     border-right: red 1px solid
 }
 
-ul.ul-dp li:last-child{
+ul.ul-dp li:last-child {
     border: none;
 }
 
 ul.ul-dp li a {
     display: block;
-    padding: 12px 41px;
+    padding: 12px 44px;
     margin: 0px 8px;
     font-size: 23px;
 }
+
 ul.ul-dp li a:hover {
     background: aqua;
     transition: 0.3s;
@@ -97,18 +104,33 @@ ul.ul-dp li a:hover {
     font-style: italic;
     font-weight: 700;
 }
+
+
 /*header code end */
 
 
 /*main website code end */
+
+section#navigation .container {
+    padding: 0;
+}
+
+.marquee_content {
+    color: red;
+    font-size: 25px;
+    padding: 10px;
+}
+
 ul.wibsite-1 li {
     list-style: none;
     width: 230px;
     font-size: 26px;
 }
-.website{
+
+.website {
     position: relative;
 }
+
 .content h3 {
     font-size: 30px;
     text-align: center;
@@ -128,30 +150,34 @@ ul.wibsite-1 li {
     top: -120px;
     left: -10px;
 }
+
 ul.wibsite-1 {
     margin-top: 30px;
 }
 
-.bg{
+.bg {
     background: #000;
     padding: 8px;
     color: white;
     border-radius: 50px;
 }
+
+
 /*main website code end */
 
 
-
-/*footer code end */
-footer .container{
-	padding: 0;
-}
-.footer-p{
-	background: black;
-	color: white;
-	text-align: center;
-	padding: 20px;
-}
-
 /*footer code end */
 
+footer .container {
+    padding: 0;
+}
+
+.footer-p {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*footer code end */
