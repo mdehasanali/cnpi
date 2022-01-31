@@ -111,6 +111,10 @@ ul.ul-dp li a:hover {
 
 /*main website code end */
 
+section.website .container {
+    padding: 0px;
+}
+
 section#navigation .container {
     padding: 0;
 }
@@ -123,8 +127,22 @@ section#navigation .container {
 
 ul.wibsite-1 li {
     list-style: none;
-    width: 230px;
+    width: 300px;
     font-size: 26px;
+    display: block;
+}
+
+ul.wibsite-1 li a {
+    padding: 3px 23px;
+    display: block;
+    font-size: 21px;
+}
+
+ul.wibsite-1 li a:hover {
+    text-decoration: underline;
+    color: red;
+    transition: 0.3s;
+    font-style: italic;
 }
 
 .website {
@@ -141,6 +159,7 @@ ul.wibsite-1 li {
     font-size: 21px;
     margin: 40px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .content {
@@ -149,10 +168,6 @@ ul.wibsite-1 li {
     position: relative;
     top: -120px;
     left: -10px;
-}
-
-ul.wibsite-1 {
-    margin-top: 30px;
 }
 
 .bg {
